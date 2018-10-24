@@ -1,4 +1,4 @@
-package name.ealen.simpleFactory.designPattern;
+package name.ealen.factory.factoryMethod.designPattern;
 
 /**
  * Created by EalenXie on 2018/10/22 9:58.
