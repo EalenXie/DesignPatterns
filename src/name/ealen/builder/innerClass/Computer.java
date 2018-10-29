@@ -2,7 +2,7 @@ package name.ealen.builder.innerClass;
 
 /**
  * 内部类 builder模式
- * 替换掉getter/setter方法 初始化实例对象
+ * 替换掉构造方法 初始化实例对象
  */
 public class Computer {
     //显示器

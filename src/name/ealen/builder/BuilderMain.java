@@ -27,7 +27,7 @@ public class BuilderMain {
 
 
     /**
-     * 内部类 builder模式，替换掉getter/setter方法 初始化实例对象
+     * 内部类 builder模式，替换掉构造方法 初始化实例对象
      */
     @Test
     public void createComputer() {
