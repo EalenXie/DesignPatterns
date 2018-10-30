@@ -5,6 +5,7 @@ import java.util.Observer;
 
 /**
  * Created by EalenXie on 2018/10/30 13:37.
+ * 观察者
  */
 public class PersonObserver implements Observer {
     @Override
