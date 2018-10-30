@@ -21,6 +21,16 @@ public class SimpleFactoryMain {
         banana.get();
     }
 
+    /**
+     * 结合反射
+     */
+    @Test
+    public void getFruitByClassName() {
+        Fruit apple = FruitFactory.getFruitByClassName("name.ealen.factory.simpleFactory.designPattern.Apple");
+        Fruit banana = FruitFactory.getFruitByClassName("name.ealen.factory.simpleFactory.designPattern.Banana");
+        apple.get();
+        banana.get();
+    }
 
 
 }

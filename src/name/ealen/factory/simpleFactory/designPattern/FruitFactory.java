@@ -15,17 +15,17 @@ public class FruitFactory {
     }
 
 
-//    /**
-//     * 结合反射很强
-//     */
-//    public static Fruit getFruitByClassName(String className) {
-//        try {
-//            Class fruit = Class.forName(className);
-//            return (Fruit) fruit.newInstance();
-//        } catch (ClassNotFoundException | IllegalAccessException | InstantiationException e) {
-//            e.printStackTrace();
-//            return () -> System.out.println("不知名的水果");
-//        }
-//    }
+    /**
+     * 结合反射很强
+     */
+    public static Fruit getFruitByClassName(String className) {
+        try {
+            Class fruit = Class.forName(className);
+            return (Fruit) fruit.newInstance();
+        } catch (ClassNotFoundException | IllegalAccessException | InstantiationException e) {
+            e.printStackTrace();
+            return () -> System.out.println("不知名的水果");
+        }
+    }
 
 }
