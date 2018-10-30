@@ -22,7 +22,7 @@ public class SimpleFactoryMain {
     }
 
     /**
-     * 结合反射
+     * 结合反射很强
      */
     @Test
     public void getFruitByClassName() {
