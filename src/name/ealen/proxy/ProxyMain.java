@@ -38,7 +38,7 @@ public class ProxyMain {
         //一个真实对象
         DynamicRealSubject subject = new DynamicRealSubject();
 
-        //动态代理处理逻辑 ,基于反射类InvocationHandler实现，指定要代理的真实对象，可以是任何接口类型，类必须实现一个或多个接口
+        //动态代理处理逻辑 ,基于反射类InvocationHandler实现，指定要代理的真实对象，但必须实现一个或多个接口
         InvocationHandler proxyHandler = new ProxyHandler(subject);
 
         //一个代理人,实例化基于反射类Proxy实现。
